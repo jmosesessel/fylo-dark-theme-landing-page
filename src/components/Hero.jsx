@@ -1,7 +1,8 @@
 import HeroImage from '../assets/images/illustration-intro.png'
 export default function Hero() {
   return (
-    
-    <img className='pt-20 pb-10 px-8' src={HeroImage} alt='' />
+    <div className='py-6 px-9'>
+        <img className='w-full' src={HeroImage} alt='hero image' />
+    </div>
   )
 }
