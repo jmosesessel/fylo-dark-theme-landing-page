@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header'
 import HeroImage from './components/Hero'
 import IntroText from './components/IntroText'
+import FeatureList from './components/FeatureList'
+import StayProductive from './components/StayProductive'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
         <Header />
         <HeroImage />
         <IntroText />
+        <FeatureList />
+        <StayProductive />
       </main>
     
   )
