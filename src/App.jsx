@@ -6,6 +6,7 @@ import IntroText from './components/IntroText'
 import FeatureList from './components/FeatureList'
 import StayProductive from './components/StayProductive'
 import TestimonialList from './components/TestimonialList'
+import EarlyAccess from './components/EarlyAccess'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <FeatureList />
         <StayProductive />
         <TestimonialList />
+        <EarlyAccess />
       </main>
     
   )
