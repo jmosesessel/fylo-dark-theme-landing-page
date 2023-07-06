@@ -1,4 +1,3 @@
-import React from "react";
 
 function FeatureBox(props) {
 	const features = props.features;
