@@ -6,12 +6,12 @@ function FooterInnerWrap() {
   return (
     <>
         <div className='px-[1.7rem] mb-14'>
-            <img className='w-[6.75rem] h-[1.9375rem] pl-4 relative -top-[5.19rem]' src={Logo} alt="logo" />
+            <img className='w-[6.75rem] h-[1.9375rem] ml-4 lg:ml-[7.5rem] relative -top-[5.19rem]' src={Logo} alt="logo" />
         
-            <div className='grid gird-cols-1 lg:grid-cols-5 gap-10'>
-                <div className='flex gap-6 justify-start relative'>
-                    <FaLocationDot className='text-white text-5xl '/>
-                    <p className=' font-open-sans text-white text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <div className='flex flex-col lg:flex-row gap-20 ml-4 lg:ml-[7.5rem]'>
+                <div className='flex gap-6 lg:gap-6 justify-start align-top relative'>
+                    <FaLocationDot className='w-[1.5rem] text-white text-5xl '/>
+                    <p className=' lg:w-[21.1875rem] font-open-sans text-white text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
                 
                 <div className='flex flex-col gap-3 justify-start relative '>
