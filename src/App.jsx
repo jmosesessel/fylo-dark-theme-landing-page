@@ -12,7 +12,7 @@ function App() {
 
   return (
     
-      <main className='min-w-full min-h-screen bg-dark-blue-main'>
+      <main className=' min-w-full min-h-screen bg-dark-blue-main'>
         <Header />
         <HeroImage />
         <IntroText />

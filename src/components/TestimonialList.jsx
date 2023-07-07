@@ -30,9 +30,12 @@ const testimonials = [
 ]
 function TestimonialList() {
   return (
-    <div className='mx-12 mb-40'>
-        <img className='w-8 text-[5rem]' src={QuoteIcon} alt="" />
-        <TestimonialBox testimonials={testimonials} />
+    <div className='mx-12 mb-40 lg:mx-[7.5rem]'>
+        <img className='w-8 text-[5rem] lg:text-[12.5rem] lg:relative lg:-left-2 lg:top-2 lg:z-0' src={QuoteIcon} alt="" />
+        <div className='flex flex-col lg:flex-row lg:gap-10 lg:z-10 lg:relative'>
+            <TestimonialBox testimonials={testimonials} />
+
+        </div>
     </div>
   )
 }

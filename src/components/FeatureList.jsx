@@ -32,7 +32,7 @@ function FeatureList() {
     ]
   return (
     
-    <div className='grid grid-flow-col grid-cols-1 mx-[20px] mt-[7.5rem] mb-[10rem]'>
+    <div className=' mx-[20px] lg:mx-[17.5rem] mt-[7.5rem] mb-[10rem]'>
         <FeatureBox features={features} />
     </div>
   )

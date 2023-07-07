@@ -8,7 +8,7 @@ function FooterInnerWrap() {
         <div className='px-[1.7rem] mb-14'>
             <img className='w-[6.75rem] h-[1.9375rem] pl-4 relative -top-[5.19rem]' src={Logo} alt="logo" />
         
-            <div className='grid gird-cols-1 gap-10'>
+            <div className='grid gird-cols-1 lg:grid-cols-5 gap-10'>
                 <div className='flex gap-6 justify-start relative'>
                     <FaLocationDot className='text-white text-5xl '/>
                     <p className=' font-open-sans text-white text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -41,13 +41,13 @@ function FooterInnerWrap() {
                 </div>
 
                 <div className='flex gap-4 justify-center relative text-white'>
-                    <div className='border rounded-full p-2'>
+                    <div className='flex justify-center items-center border rounded-full h-[34px] w-[34px]'>
                         <FaFacebookF className=' text-white'/>
                     </div>
-                    <div className='border rounded-full p-2'>
+                    <div className='flex justify-center items-center border rounded-full h-[34px] w-[34px]'>
                         <FaTwitter className=' text-white'/>
                     </div>
-                    <div className='border rounded-full p-2'>
+                    <div className='flex justify-center items-center border rounded-full h-[34px] w-[34px]'>
                         <FaInstagram className=' text-white'/>
                     </div>
                        
