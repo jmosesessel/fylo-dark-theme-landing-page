@@ -7,6 +7,8 @@ import FeatureList from './components/FeatureList'
 import StayProductive from './components/StayProductive'
 import TestimonialList from './components/TestimonialList'
 import FooterWrap from './components/FooterWrap'
+import MobileCurvyBgImg from './assets/images/bg-curvy-mobile.svg'
+import DesktopCurvyBgImg from './assets/images/bg-curvy-desktop.svg'
 
 function App() {
 
@@ -15,11 +17,15 @@ function App() {
       <main className=' min-w-full min-h-screen bg-dark-blue-main'>
         <Header />
         <HeroImage />
-        <IntroText />
-        <FeatureList />
-        <StayProductive />
-        <TestimonialList />
-        <FooterWrap />
+        <div >
+          <IntroText className=" bg-no-repeat style={{backgroundImage: `url(${MobileCurvyBgImg})`}}" />
+          <FeatureList />
+          <StayProductive />
+          <TestimonialList />
+        
+        
+          <FooterWrap />
+        </div>
       </main>
     
   )

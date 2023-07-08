@@ -26,7 +26,12 @@ export default {
       'open-sans': ['Open Sans', 'sans-serif'],
 
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mobile-curvy-bg': "url('/assets/images/bg-curvy-mobile.svg')",
+        'desktop-curvy-bg': "url('/assets/images/bg-curvy-mobile.svg')",
+      }
+    },
   },
   plugins: [],
 }
