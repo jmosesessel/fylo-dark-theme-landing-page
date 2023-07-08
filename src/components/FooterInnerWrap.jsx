@@ -9,14 +9,14 @@ function FooterInnerWrap() {
             <img className='w-[6.75rem] h-[1.9375rem] ml-4 lg:ml-[7.5rem] relative -top-[5.19rem]' src={Logo} alt="logo" />
         
             <div className='flex flex-col lg:flex-row gap-20 ml-4 lg:ml-[7.5rem]'>
-                <div className='flex gap-6 lg:gap-6 justify-start align-top relative'>
-                    <FaLocationDot className='w-[1.5rem] text-white text-5xl '/>
+                <div className='flex gap-6 '>
+                    <FaLocationDot className='text-6xl lg:text-2xl text-white relative -top-3 lg:top-2'/>
                     <p className=' lg:w-[21.1875rem] font-open-sans text-white text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
                 
                 <div className='flex flex-col gap-3 justify-start relative '>
                     <div className=' flex gap-6'>
-                        <FaPhoneVolume className='text-white text-lg justify-center items-center '/>
+                        <FaPhoneVolume className='text-white text-2xl justify-center items-center '/>
                         <p className=' font-open-sans text-white text-[1rem]'>+1-543-123-4567</p>
                     </div>
 
